@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    nav,
+    .main-background-image,
+    .services-container,
+    .our-portfolios,
+    .clients-rewiev,
+    .footer-nav {
+        width: 90vw;
+
+    }
+
+    .main-text > h1,
+    .statistics {
+        width: 90vw;
+
+    }
+
+    .rewievs-cards {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+    .portfolio-cards {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+    .footer-links {
+        width: 90vw;
+
+    }
+
+    .left-footer-nav>span {
+        max-width: 90vw;
+
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav-links {
+        display: none;
+
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        width: 34px;
+
+    }
+
+    .main-background-image-container {
+        gap: initial;
+        
+    }
+
+}

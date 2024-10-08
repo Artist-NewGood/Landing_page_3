@@ -1,0 +1,186 @@
+@media screen and (max-width: 428px) {
+    nav,
+    .main-background-image,
+    .services-container,
+    .our-portfolios ,
+    .clients-rewiev,
+    .footer-nav {
+        width: 90vw;
+
+    }
+
+    footer {
+        padding: 50px 0;
+
+    }
+
+    .our-portfolios {
+        padding: 40px 0;
+
+    }
+
+    main {
+        height: 100%;
+        padding: 40px;
+
+    }
+
+    .main-text > h1,
+    .statistics {
+        width: 90vw;
+
+    }
+
+    .statistics {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .text-statistics {
+        flex-direction: row;
+        width: 320px;
+        gap: 50px;
+        
+    }
+
+    .text-statistics > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        
+    }
+
+    .main-text > h1 {
+        font-size: 24px;
+
+    }
+
+    .clients-text {
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .clients-text > span:last-child {
+        text-align: center;
+        
+    }
+
+    .clients-text > span:first-child {
+        text-align: center;
+        
+    }
+
+    .rewievs-cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .portfolio-cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .footer-links {
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+
+    }
+
+    .left-footer-nav {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left-footer-nav > span {
+        max-width: 90vw;
+        text-align: center;
+        
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav-links {
+        display: none;
+
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        width: 34px;
+
+    }
+
+    .main-background-image-container {
+        gap: initial;
+        margin: 0;
+        padding: 40px 0;
+
+    }
+
+    .our-services {
+        margin: 0;
+        padding: 40px 0;
+
+    }
+
+    .contacts-text {
+        width: 90vw;
+
+    }
+
+    .main-background-image {
+        display: none;
+        margin: 0;
+
+    }
+
+    .portfolios-text {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contacts-text > h1 {
+        font-size: 32px;
+
+    }
+
+    .our-services-card {
+        padding: 16px;
+
+    }
+
+    .our-services-text {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .our-services-text > h3 {
+        font-size: 24px;
+        text-align: center;
+
+    }
+
+    .our-services-cards {
+        padding: 0;
+
+    }
+}

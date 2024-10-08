@@ -1,0 +1,38 @@
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    nav,
+    .main-background-image,
+    .services-container,
+    .our-portfolios ,
+    .clients-rewiev,
+    .footer-nav {
+        width: 90vw;
+
+    }
+
+    .main-text > h1,
+    .statistics {
+        width: 90vw;
+
+    }
+
+    .rewievs-cards {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+    .portfolio-cards {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+    
+    .footer-links {
+        width: 427px;
+
+    }
+
+    .left-footer-nav > span {
+        max-width: 450px;
+        
+    }
+
+}
